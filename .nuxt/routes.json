@@ -1,0 +1,23 @@
+[
+  {
+    "name": "books_index",
+    "path": "/books_index",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\UNA\\\\II Ciclo Licenciatura\\\\Arquitectura de Información\\\\Proyecto2-Arquitectura\\\\pages\\\\books_index.vue",
+    "chunkName": "pages/books_index",
+    "_name": "_f952cc38"
+  },
+  {
+    "name": "books-slug",
+    "path": "/books/:slug?",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\UNA\\\\II Ciclo Licenciatura\\\\Arquitectura de Información\\\\Proyecto2-Arquitectura\\\\pages\\\\books\\\\_slug.vue",
+    "chunkName": "pages/books/_slug",
+    "_name": "_d11af06e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\UNA\\\\II Ciclo Licenciatura\\\\Arquitectura de Información\\\\Proyecto2-Arquitectura\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_24055f0e"
+  }
+]
