@@ -1,3 +1,6 @@
+# Entrega del Proyecto
+25/11/2021 23:59 (Le puse un correo al profe que si lo puede extender hasta el 27)
+
 # Proyecto 2 - Sitio de Game of Thrones
 El objetivo del segundo proyecto consiste en desarrollar un sitio web con información proveniente de la base de datos de la serie "Game of Thrones", tomada del sitio Kaggle .
 
