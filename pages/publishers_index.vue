@@ -18,7 +18,7 @@
      <p>This section presents information about publishers</p>
    <ul>
      <li v-for="publisher of publishers" :key="publisher.slug">
-       <NuxtLink :to="{ name:'publishers-slug', params: {slug: publisher.slug}}">{{publisher.name}}</NuxtLink>
+       <NuxtLink :to="{ name: 'publishers-slug', params: { slug: publisher.slug } }">{{publisher.name}}</NuxtLink>
      </li>
    </ul>
    <FooterView />
