@@ -2,7 +2,7 @@
   import util from '~/assets/js/util'
   export default {
     async asyncData({ params, $axios }) {
-      let books = await $axios.$get('https://api.typewriter.cloud/milton/bookstore/types/book')
+      let books = await $axios.$get('https://api.typewriter.cloud/arce/bookstore/types/book')
       books.forEach(book => util.cmsToObj(book))
       return {
         books

@@ -1,23 +1,51 @@
 [
   {
+    "name": "authors_index",
+    "path": "/authors_index",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\authors_index.vue",
+    "chunkName": "pages/authors_index",
+    "_name": "_6fbc2e53"
+  },
+  {
     "name": "books_index",
     "path": "/books_index",
-    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\UNA\\\\II Ciclo Licenciatura\\\\Arquitectura de Información\\\\Proyecto2-Arquitectura\\\\pages\\\\books_index.vue",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\books_index.vue",
     "chunkName": "pages/books_index",
-    "_name": "_f952cc38"
+    "_name": "_b69f1396"
+  },
+  {
+    "name": "publishers_index",
+    "path": "/publishers_index",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\publishers_index.vue",
+    "chunkName": "pages/publishers_index",
+    "_name": "_67dce302"
+  },
+  {
+    "name": "authors-slug",
+    "path": "/authors/:slug?",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\authors\\\\_slug.vue",
+    "chunkName": "pages/authors/_slug",
+    "_name": "_37bf813a"
   },
   {
     "name": "books-slug",
     "path": "/books/:slug?",
-    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\UNA\\\\II Ciclo Licenciatura\\\\Arquitectura de Información\\\\Proyecto2-Arquitectura\\\\pages\\\\books\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\books\\\\_slug.vue",
     "chunkName": "pages/books/_slug",
-    "_name": "_d11af06e"
+    "_name": "_bd5794d0"
+  },
+  {
+    "name": "publishers-slug",
+    "path": "/publishers/:slug?",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\publishers\\\\_slug.vue",
+    "chunkName": "pages/publishers/_slug",
+    "_name": "_43b5626b"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\UNA\\\\II Ciclo Licenciatura\\\\Arquitectura de Información\\\\Proyecto2-Arquitectura\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\milto\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Proyecto2-Arquitectura\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_24055f0e"
+    "_name": "_c47a04ec"
   }
 ]

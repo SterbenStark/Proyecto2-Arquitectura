@@ -4,9 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _f952cc38 = () => interopDefault(import('..\\pages\\books_index.vue' /* webpackChunkName: "pages/books_index" */))
-const _d11af06e = () => interopDefault(import('..\\pages\\books\\_slug.vue' /* webpackChunkName: "pages/books/_slug" */))
-const _24055f0e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _6fbc2e53 = () => interopDefault(import('..\\pages\\authors_index.vue' /* webpackChunkName: "pages/authors_index" */))
+const _b69f1396 = () => interopDefault(import('..\\pages\\books_index.vue' /* webpackChunkName: "pages/books_index" */))
+const _67dce302 = () => interopDefault(import('..\\pages\\publishers_index.vue' /* webpackChunkName: "pages/publishers_index" */))
+const _37bf813a = () => interopDefault(import('..\\pages\\authors\\_slug.vue' /* webpackChunkName: "pages/authors/_slug" */))
+const _bd5794d0 = () => interopDefault(import('..\\pages\\books\\_slug.vue' /* webpackChunkName: "pages/books/_slug" */))
+const _43b5626b = () => interopDefault(import('..\\pages\\publishers\\_slug.vue' /* webpackChunkName: "pages/publishers/_slug" */))
+const _c47a04ec = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -20,16 +24,32 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/authors_index",
+    component: _6fbc2e53,
+    name: "authors_index"
+  }, {
     path: "/books_index",
-    component: _f952cc38,
+    component: _b69f1396,
     name: "books_index"
   }, {
+    path: "/publishers_index",
+    component: _67dce302,
+    name: "publishers_index"
+  }, {
+    path: "/authors/:slug?",
+    component: _37bf813a,
+    name: "authors-slug"
+  }, {
     path: "/books/:slug?",
-    component: _d11af06e,
+    component: _bd5794d0,
     name: "books-slug"
   }, {
+    path: "/publishers/:slug?",
+    component: _43b5626b,
+    name: "publishers-slug"
+  }, {
     path: "/",
-    component: _24055f0e,
+    component: _c47a04ec,
     name: "index"
   }],
 
