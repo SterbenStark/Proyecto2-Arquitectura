@@ -22,11 +22,13 @@
        <img class="u-max-full-width" :src="book.bookimage">
      </div>
      <div class="six columns">
-       <h4>{{book.title}}</h4>
-	   by <NuxtLink :to="cmsUrl+'/authors/'+book.authorid">{{author.name}}</NuxtLink><br>
-	   Edition: {{book.edition}}; Copyright: {{book.copyright}}; 
-	   Language: {{book.language}}; Pages: {{book.pages}}<br>
-	   published by <NuxtLink :to="cmsUrl+'/publishers/'+book.publisherid">{{publisher.name}}</NuxtLink><br><br>
+       <h4>{{book.title}}</h4> by 
+       <NuxtLink :to="'/authors'">{{author.name}}</NuxtLink><br>
+	      Edition: {{book.edition}} <br>
+        Copyright: {{book.copyright}} <br>
+	      Language: {{book.language}} <br>
+        Pages: {{book.pages}} <br>
+	      published by <NuxtLink :to="'/publishers'">{{publisher.name}}</NuxtLink><br><br>
 	   <b>Description</b><br>
 	   <span v-html="book.content"></span>
 	 </div>
