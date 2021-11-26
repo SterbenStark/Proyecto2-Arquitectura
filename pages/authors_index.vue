@@ -22,5 +22,6 @@
      </li>
    </ul>
    <FooterView />
+   <!--Entidades: battle, personaje, casa, mascota, muertes-->
  </div>
 </template>
