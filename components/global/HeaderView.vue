@@ -1,8 +1,10 @@
 <template>
     <div class="row"  style="margin-top: 15px">
-      <NuxtLink class="three columns button button-primary" to="/">Home</NuxtLink>
-      <NuxtLink class="three columns button button-primary" to="/books_index">Books</NuxtLink>
-      <NuxtLink class="three columns button button-primary" to="/authors_index">Authors</NuxtLink>
-      <NuxtLink class="three columns button button-primary" to="/publishers_index">Publishers</NuxtLink>
+      <NuxtLink class="two columns button button-primary" to="/">Home</NuxtLink>
+      <NuxtLink class="two columns button button-primary" to="/houses_index">House</NuxtLink>
+      <NuxtLink class="two columns button button-primary" to="/characters_index">Character</NuxtLink>
+      <NuxtLink class="two columns button button-primary" to="/battles_index">Battle</NuxtLink>
+      <NuxtLink class="two columns button button-primary" to="/mascota_index">Animal</NuxtLink>
+      <NuxtLink class="two columns button button-primary" to="/deaths_index">Deaths</NuxtLink>
     </div>
 </template>

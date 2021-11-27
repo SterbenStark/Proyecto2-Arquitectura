@@ -4,12 +4,15 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _6fbc2e53 = () => interopDefault(import('..\\pages\\authors_index.vue' /* webpackChunkName: "pages/authors_index" */))
-const _b69f1396 = () => interopDefault(import('..\\pages\\books_index.vue' /* webpackChunkName: "pages/books_index" */))
-const _67dce302 = () => interopDefault(import('..\\pages\\publishers_index.vue' /* webpackChunkName: "pages/publishers_index" */))
-const _37bf813a = () => interopDefault(import('..\\pages\\authors\\_slug.vue' /* webpackChunkName: "pages/authors/_slug" */))
-const _bd5794d0 = () => interopDefault(import('..\\pages\\books\\_slug.vue' /* webpackChunkName: "pages/books/_slug" */))
-const _43b5626b = () => interopDefault(import('..\\pages\\publishers\\_slug.vue' /* webpackChunkName: "pages/publishers/_slug" */))
+const _f0509df4 = () => interopDefault(import('..\\pages\\battles_index.vue' /* webpackChunkName: "pages/battles_index" */))
+const _3e873bb5 = () => interopDefault(import('..\\pages\\characters_index.vue' /* webpackChunkName: "pages/characters_index" */))
+const _564630ec = () => interopDefault(import('..\\pages\\deaths_index.vue' /* webpackChunkName: "pages/deaths_index" */))
+const _7d724f5e = () => interopDefault(import('..\\pages\\houses_index.vue' /* webpackChunkName: "pages/houses_index" */))
+const _6c6b9fc3 = () => interopDefault(import('..\\pages\\mascota_index.vue' /* webpackChunkName: "pages/mascota_index" */))
+const _21ebcc2b = () => interopDefault(import('..\\pages\\animals\\_slug.vue' /* webpackChunkName: "pages/animals/_slug" */))
+const _231454e7 = () => interopDefault(import('..\\pages\\battles\\_slug.vue' /* webpackChunkName: "pages/battles/_slug" */))
+const _42562018 = () => interopDefault(import('..\\pages\\characters\\_slug.vue' /* webpackChunkName: "pages/characters/_slug" */))
+const _3e64fce2 = () => interopDefault(import('..\\pages\\houses\\_slug.vue' /* webpackChunkName: "pages/houses/_slug" */))
 const _c47a04ec = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -24,29 +27,41 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/authors_index",
-    component: _6fbc2e53,
-    name: "authors_index"
+    path: "/battles_index",
+    component: _f0509df4,
+    name: "battles_index"
   }, {
-    path: "/books_index",
-    component: _b69f1396,
-    name: "books_index"
+    path: "/characters_index",
+    component: _3e873bb5,
+    name: "characters_index"
   }, {
-    path: "/publishers_index",
-    component: _67dce302,
-    name: "publishers_index"
+    path: "/deaths_index",
+    component: _564630ec,
+    name: "deaths_index"
   }, {
-    path: "/authors/:slug?",
-    component: _37bf813a,
-    name: "authors-slug"
+    path: "/houses_index",
+    component: _7d724f5e,
+    name: "houses_index"
   }, {
-    path: "/books/:slug?",
-    component: _bd5794d0,
-    name: "books-slug"
+    path: "/mascota_index",
+    component: _6c6b9fc3,
+    name: "mascota_index"
   }, {
-    path: "/publishers/:slug?",
-    component: _43b5626b,
-    name: "publishers-slug"
+    path: "/animals/:slug?",
+    component: _21ebcc2b,
+    name: "animals-slug"
+  }, {
+    path: "/battles/:slug?",
+    component: _231454e7,
+    name: "battles-slug"
+  }, {
+    path: "/characters/:slug?",
+    component: _42562018,
+    name: "characters-slug"
+  }, {
+    path: "/houses/:slug?",
+    component: _3e64fce2,
+    name: "houses-slug"
   }, {
     path: "/",
     component: _c47a04ec,
