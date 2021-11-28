@@ -15,7 +15,7 @@ Se debe elaborar un diagrama de "mapa de sitio de la arquitectura de alto nivel"
 
 Junto con este proyecto se debe entregar un documento que incluya este diagrama y la explicación del mismo.
 
-![Mapa de Sitio](/img/Mapa de Sitio.jpeg)
+![Mapa de Sitio](/img/Mapa de Sitio.jpg)
 
 # Mapas de sitio detallados
 Se deben elaborar mapas de sitio detallados para las páginas individuales en donde se especifique el contenido a mostrar. Dichos diagramas deben incluir también los "flujos" posibles entre las diferentes entidades o páginas. Se debe especificar también el contenido del sistema de navegación principal y secundario para cada tipo de página, tal como se muestra en el material del curso.
