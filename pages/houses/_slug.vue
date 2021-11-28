@@ -23,8 +23,7 @@
      <div class="six columns">
        <h4>{{casa.name}}</h4><br>
 	      Lema of House: {{casa.lema}} <br>
-          Animal of House: {{casa.mascotaid}} <br>
-          <NuxtLink :to="'/animals/'+casa.mascotaid">{{mascota.name}}</NuxtLink><br>
+          Animal of House: <NuxtLink :to="'/animals/'+casa.mascotaid">{{mascota.name}}</NuxtLink><br>
           City of House: {{casa.ciudad}} <br><br>
 	   <span v-html="casa.descripcion"></span>
 	 </div>
