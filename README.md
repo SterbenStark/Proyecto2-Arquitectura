@@ -1,5 +1,5 @@
 # Entrega del Proyecto
-25/11/2021 23:59 (Le puse un correo al profe que si lo puede extender hasta el 27)
+27/11/2021 23:59 (Le puse un correo al profe que si lo puede extender hasta el 27)
 
 # Proyecto 2 - Sitio de Game of Thrones
 El objetivo del segundo proyecto consiste en desarrollar un sitio web con información proveniente de la base de datos de la serie "Game of Thrones", tomada del sitio Kaggle .
@@ -14,6 +14,8 @@ Inicialmente se debe analizar la base de datos publicada en Kaggle e identificar
 Se debe elaborar un diagrama de "mapa de sitio de la arquitectura de alto nivel", tal como se describe en el material del curso. Este diagrama mostrará la organización del sitio a alto nivel en forma de estructura jerárquica. El sitio debe incluir opciones de búsqueda para cada una de las entidades que componen el modelo de datos, las cuales deben aparecer en este diagrama.
 
 Junto con este proyecto se debe entregar un documento que incluya este diagrama y la explicación del mismo.
+
+![Mapa de Sitio](/img/Mapa de Sitio.jpeg)
 
 # Mapas de sitio detallados
 Se deben elaborar mapas de sitio detallados para las páginas individuales en donde se especifique el contenido a mostrar. Dichos diagramas deben incluir también los "flujos" posibles entre las diferentes entidades o páginas. Se debe especificar también el contenido del sistema de navegación principal y secundario para cada tipo de página, tal como se muestra en el material del curso.
